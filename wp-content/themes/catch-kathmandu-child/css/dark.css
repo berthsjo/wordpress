@@ -1,0 +1,145 @@
+/*
+	A dark color scheme for Catch Kathmandu Pro
+*/
+
+body {
+    background: url(../images/dark-noise.png) repeat scroll 0 0 transparent;
+}
+body, button, input, select, textarea {
+	color: #aaa;
+}
+.site {
+	background-color: #222;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+#site-title {
+    text-shadow: 2px 2px #000;
+}
+#site-description {
+    color: #777;
+}
+#site-generator {
+    background-color: #000;
+}
+#footer-sidebar  {
+    color: #555;
+}
+#site-generator {
+    border-top: 1px solid #222;
+}
+input[type="text"], 
+input[type="email"], 
+textarea {
+	background-color: transparent;
+}
+#masthead,
+#homepage-message,
+#footer-sidebar,
+article .entry-format,
+blockquote,
+pre {
+    background-color: #111;
+}
+input#s {
+    background-image: url("../images/dark-search.png");
+}
+#site-title a,
+.widget-title,
+.entry-header .entry-title a,
+article.sticky .featured-sticky,
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus,
+#homepage-message,
+#featured-post .entry-title,
+article.format-image .entry-title a,
+.post-format .entry-header .entry-title {
+	color: #ddd;
+}
+#header-menu,
+#secondary-menu,
+#footer-menu {
+    background-color: #000;
+}
+#header-menu ul.menu ul a,
+#secondary-menu ul.menu ul a,
+#footer-menu ul.menu ul a{
+	background-color: #000;
+	border-bottom: 1px dotted #444;
+}
+#header-menu ul.menu li:hover > a,
+#header-menu ul.menu a:focus,
+#secondary-menu ul.menu li:hover > a,
+#secondary-menu ul.menu a:focus,
+#footer-menu ul.menu li:hover > a,
+#footer-menu ul.menu a:focus,
+#colophon #access-footer ul.menu a:hover,
+#colophon #access-footer ul.menu a:focus {
+	background-color: #333;
+}
+#header-menu .menu .current-menu-item > a,
+#header-menu .menu .current-menu-ancestor > a,
+#header-menu .menu .current_page_item > a,
+#header-menu .menu .current_page_ancestor > a,
+#secondary-menu .menu .current-menu-item > a,
+#secondary-menu .menu .current-menu-ancestor > a,
+#secondary-menu .menu .current_page_item > a,
+#secondary-menu .menu .current_page_ancestor > a,
+#footer-menu .menu .current-menu-item > a,
+#footer-menu .menu .current-menu-ancestor > a,
+#footer-menu .menu .current_page_item > a,
+#footer-menu .menu .current_page_ancestor > a,
+#colophon .menu .current-menu-item a,
+hr {
+	background-color: #333;
+	color: #fff;
+}
+#featured-post,
+#featured-post #feature-heading,
+#secondary .widget,
+#colophon {
+    border-color: #444;
+}
+.header-sidebar .widget ul.menu a, 
+#secondary-menu ul.menu a, 
+#footer-menu ul.menu a {
+    color: #ddd;
+}
+#header-menu ul.menu ul a,
+#homepage-message,
+.site-content article,
+article.sticky .featured-sticky,
+input[type="text"], 
+input[type="email"], 
+textarea,
+#footer-sidebar,
+.wp-caption,
+.entry-content table, 
+.comment-content table, 
+.entry-content td, 
+.comment-content td {
+    border-color: #333;	
+}
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+article.post-password-required input[type=submit],
+li.bypostauthor cite span {
+	background: none #000;
+	border-color: #333;
+}
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: none #333;
+	border-color: #000;
+	
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+th, h1, h2, h3 {
+    color: #ddd;
+}
